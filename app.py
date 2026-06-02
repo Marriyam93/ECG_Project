@@ -1,7 +1,8 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import tensorflow as tf
+import tensorflow as tf  # Add this line
+from tensorflow.keras.models import load_model
 
 # Suppress TensorFlow warnings
 tf.get_logger().setLevel('ERROR')
