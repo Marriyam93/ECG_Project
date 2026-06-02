@@ -1,4 +1,0 @@
-libgomp1
-libc6
-libstdc++6
-openssl
